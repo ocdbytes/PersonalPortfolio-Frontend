@@ -1,0 +1,16 @@
+.footerMain{
+    text-align: center;
+    width: 100%;
+    color: #ECECEC;
+}
+.addressFooter{
+    color: #E0E0E0;
+    word-wrap: break-word;
+}
+.colored{
+    color: #F72585;
+}
+.strip{
+    background: #ECECEC;
+    color: #232323;
+}

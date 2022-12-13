@@ -1,0 +1,29 @@
+.burger{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.burgerMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.burgerStick{
+    width: 70%;
+    height: 5%;
+    background: #ffffff;
+    margin: 10%;
+}
+.burgerCross{
+  width: 70%;
+  height: 70%;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+} 
