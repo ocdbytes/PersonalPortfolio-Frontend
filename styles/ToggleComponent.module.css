@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.mainDiv {
+  display: flex;
+  color: #ececec;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  margin: 10px 0;
+}
+.headingComp {
+  display: flex;
+  cursor: pointer;
+}
+.toggleArrow {
+  margin-right: 5px;
+  color: #d8315b;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+.arrowRotated {
+  transform: rotate(90deg);
+}
+.descComp {
+  margin-top: 2%;
+  display: none;
+  flex-direction: column;
+  color: #d0d0d0;
+  max-width: 650px;
+}
+.descComp p {
+  font-family: "Roboto Mono", monospace;
+}
+.descToggled {
+  display: flex;
+}
+.tagBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.descTag {
+  color: #d8315b;
+  padding: 3px 7px;
+  background: #171717;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+}

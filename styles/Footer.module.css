@@ -1,16 +1,25 @@
-.footerMain{
-    text-align: center;
-    width: 100%;
-    color: #ECECEC;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.footerMain {
+  text-align: center;
+  width: 100%;
+  color: #ececec;
 }
-.addressFooter{
-    color: #E0E0E0;
-    word-wrap: break-word;
+.addressFooter {
+  color: #e0e0e0;
+  word-wrap: break-word;
+  font-family: "Roboto Mono", monospace;
 }
-.colored{
-    color: #F72585;
+.colored {
+  color: #f72585;
+  font-family: "Roboto Mono", monospace;
 }
-.strip{
-    background: #ECECEC;
-    color: #232323;
+.strip {
+  background: #ececec;
+  color: #232323;
+}
+.footerLinks {
+  margin-bottom: 10px;
+}
+.linkImage {
+  margin: 10px;
 }

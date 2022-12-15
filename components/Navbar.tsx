@@ -11,19 +11,19 @@ const Navbar = () => {
     <div className={styles.navMain}>
       <div>
         <Link href="/">
-          <Image src="/icon.png" alt="main-icon" width="50" height="50"></Image>
+          <Image src="/icon.png" alt="main-icon" width="40" height="40"></Image>
         </Link>
       </div>
 
       <ul className={styles.navLinks}>
         <li>
-          <Link href="/projects" className={styles.NavLinksHref}>
-            Projects
+          <Link href="/about" className={styles.NavLinksHref}>
+            About
           </Link>
         </li>
         <li>
-          <Link href="/about" className={styles.NavLinksHref}>
-            About
+          <Link href="/projects" className={styles.NavLinksHref}>
+            Projects
           </Link>
         </li>
         <li>
@@ -58,13 +58,13 @@ const MobileNav: FC<MobileNavProps> = (props) => {
     >
       <ul className={styles.navLinksMobile}>
         <li>
-          <Link href="/projects" className={styles.NavLinksHref}>
-            Projects
+          <Link href="/about" className={styles.NavLinksHref}>
+            About
           </Link>
         </li>
         <li>
-          <Link href="/about" className={styles.NavLinksHref}>
-            About
+          <Link href="/projects" className={styles.NavLinksHref}>
+            Projects
           </Link>
         </li>
         <li>

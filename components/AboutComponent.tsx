@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/About.module.css";
+import Divider from "./Divider";
 
 const AboutComponent = () => {
   return (
@@ -14,9 +15,8 @@ const AboutComponent = () => {
       </p>
       <br></br>
       <br></br>
-      <h2>📦 Blockchain</h2>
-      ---------------------
-      <br></br>
+      <Divider />
+      <h2>Blockchain 📦</h2>
       <br></br>
       <p className={styles.limitWidth}>
         I am currently improving and learning web 3 technologies, improving
@@ -40,9 +40,8 @@ const AboutComponent = () => {
       {/* section2 */}
       <br></br>
       <br></br>
-      <h2>👨‍💻 Web Development</h2>
-      --------------------------------
-      <br></br>
+      <Divider />
+      <h2>Web Development 👨‍💻</h2>
       <br></br>
       <p className={styles.limitWidth}>
         I have 1 + year of experience as a web developer and i have been

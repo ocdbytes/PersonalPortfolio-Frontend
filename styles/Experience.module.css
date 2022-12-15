@@ -18,19 +18,21 @@
   padding: 5%;
   max-width: 1280px;
 }
-.mainDiv li,
-.mainDiv p {
-  color: #d0d0d0;
-  font-size: 15px;
-  font-family: "Roboto Mono", monospace;
-}
-.mainDiv ul {
-  margin-left: 20px;
-  font-family: "Roboto Mono", monospace;
-}
 .limitWidth {
   width: 100%;
   max-width: 650px;
   color: #d0d0d0;
   font-family: "Roboto Mono", monospace;
+}
+.ExperienceDiv {
+  margin: 2% 0;
+}
+.ExperienceSubdiv {
+  margin: 20px 0;
+}
+.ExperienceSubdiv p {
+  font-family: "Roboto Mono", monospace;
+}
+.colored {
+  color: #d8315b;
 }

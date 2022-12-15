@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #232323;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.mainDiv {
+  display: flex;
+  color: #ececec;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+  max-width: 1280px;
+}
+.projDesc {
+  font-size: 15px;
+  color: #d0d0d0;
+  max-width: 650px;
+  font-family: "Roboto Mono", monospace;
+}
+.projectHeading {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ececec;
+}
+.headingImage {
+  margin-right: 10px;
+}
+.projectSection {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+.projectCard {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border: 2px solid #ececec;
+  border-radius: 10px;
+  position: relative;
+}
+.projectCard p {
+  margin-top: 15px;
+  color: #d0d0d0;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+}
+.ulHead {
+  color: #d8315b !important;
+}
+.projectCard ul {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #d0d0d0;
+  font-size: 15px;
+}
+.projectCard li {
+  font-family: "Roboto Mono", monospace;
+}
+.linkIcon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+@media only screen and (max-width: 1066px) {
+  .projectSection {
+    grid-template-columns: repeat(2, 0fr);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .projectSection {
+    grid-template-columns: repeat(1, 0fr);
+  }
+}
