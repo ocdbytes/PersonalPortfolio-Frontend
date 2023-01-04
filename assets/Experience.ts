@@ -1,10 +1,32 @@
 export const Professional = [
   {
+    company: "Arda Finance",
+    exp: [
+      {
+        role: "Blockchain Developer Intern",
+        timestart: "Jan 2023",
+        timeend: "Present",
+        present: true,
+      },
+    ],
+  },
+  {
     company: "Kana Labs",
     exp: [
       {
         role: "Blockchain Engineer Intern",
         timestart: "Dec 2022",
+        timeend: "Present",
+        present: true,
+      },
+    ],
+  },
+  {
+    company: "Shardeum",
+    exp: [
+      {
+        role: "Campus Ambassador",
+        timestart: "Jan 2023",
         timeend: "Present",
         present: true,
       },
