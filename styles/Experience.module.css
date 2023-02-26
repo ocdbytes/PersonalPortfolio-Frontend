@@ -8,6 +8,11 @@
   justify-content: flex-start;
   flex-direction: column;
 }
+.details {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #d0d0d0;
+}
 .mainDiv {
   display: flex;
   color: #ececec;

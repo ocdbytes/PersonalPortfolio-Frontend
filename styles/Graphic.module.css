@@ -4,7 +4,8 @@
   height: 100%;
   max-width: 650px;
   max-height: 450px;
-  position: relative;
+  background: url("../public/Amazer.gif");
+  background-size: cover;
 }
 /*SQ 1*/
 .sq1 {

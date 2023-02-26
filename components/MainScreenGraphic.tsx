@@ -1,10 +1,9 @@
-import Image from "next/image";
 import React from "react";
 import styles from "../styles/Graphic.module.css";
 const MainScreenGraphic = () => {
   return (
     <div className={styles.graphicMain}>
-      <div className={styles.sq1}>
+      {/* <div className={styles.sq1}>
         <p>0xEC176BE331a3b9ce8ECC4B8F25D05E912a545cc1</p>
       </div>
       <div className={styles.sq2}></div>
@@ -21,7 +20,7 @@ const MainScreenGraphic = () => {
           width="45"
           height="52"
         ></Image>
-      </div>
+      </div> */}
     </div>
   );
 };

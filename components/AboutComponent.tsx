@@ -8,10 +8,13 @@ const AboutComponent = () => {
       <h1>About</h1>
       <br></br>
       <p className={styles.limitWidth}>
-        I am a Computer Science Engineering Student currently in 3rd year. I am
-        currently working in Web3 and Blockchain. I am attending Web3 and
-        Blockchain meetups both online and offline, I have been participating
-        actively in hackathons.
+        I am a highly skilled software developer with experience in Blockchain
+        Technology and Web Development for over 2+ years. I have a good
+        knowledge of Protocols and System Design. In previous roles, slashed
+        downtime by 30% and ensured 98% on-time project completion. I also have
+        experience in Agile Software Development. I have worked in Cyber
+        Security (1+ year) and have a good knowledge of Operating Systems and
+        Low Level Interactions.
       </p>
       <br></br>
       <br></br>
@@ -19,25 +22,46 @@ const AboutComponent = () => {
       <h2>Blockchain 📦</h2>
       <br></br>
       <p className={styles.limitWidth}>
-        I am currently improving and learning web 3 technologies, improving
-        security in smart contracts using solidity, Working on gasless systems.
-        I have been using Chainlink and OpenZappelin APIs to integrate with my
-        smart contract to stay updated with new functions in APIs.
+        Full Stack Web3 Developer with knowledge in ethereum architecture.
+        Worked on DeFi products and I know the aggregator dynamics. Worked in
+        Cross Chain using Wormhole & Layer Zero. I played around with the cross
+        chain bridges and crypto vaults.
       </p>
       <br></br>
       <p>Tech Stack :</p>
       <br></br>
       <ul>
         <li>Solidity</li>
-        <li>Ganache</li>
-        <li>Hardhat</li>
-        <li>Truffle</li>
-        <li>OpenSea</li>
+        <li>DeFi</li>
+        <li>LayerZero</li>
+        <li>Wormhole (Layer 0 API)</li>
         <li>Metamask</li>
-        <li>OpenZeppelin</li>
+        <li>Oracles</li>
         <li>Chainlink</li>
       </ul>
       {/* section2 */}
+      <br></br>
+      <br></br>
+      <Divider />
+      <h2>Software Development 🖥️</h2>
+      <br></br>
+      <p className={styles.limitWidth}>
+        Worked with microservices and the deployment of the scalable products
+        using industry grade platforms. Experienced in Agile Software
+        development.
+      </p>
+      <br></br>
+      <p>Tech Stack :</p>
+      <br></br>
+      <ul>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>GCP</li>
+        <li>AWS</li>
+        <li>Graphana</li>
+        <li>Kafka</li>
+      </ul>
+      {/* section 3 */}
       <br></br>
       <br></br>
       <Divider />
@@ -56,11 +80,10 @@ const AboutComponent = () => {
         <li>MERN</li>
         <li>T3 stack</li>
         <li>Typescript</li>
-        <li>GCP</li>
-        <li>AWS</li>
         <li>Heroku</li>
+        <li>SQL</li>
+        <li>NoSQL</li>
         <li>Firebase</li>
-        <li>Heroku</li>
       </ul>
     </div>
   );

@@ -33,10 +33,11 @@ const ExperienceComponent = () => {
                       className={styles.colored}
                       style={{ marginRight: `${ex.present ? "5px" : "0"}` }}
                     >
-                      {ex.present && <span>&#9673;</span>}
+                      {ex.present && <span>-&gt;</span>}
                     </span>
                     {ex.role}
                   </p>
+                  {ex.details && <p className={styles.details}>{ex.details}</p>}
                   <p>
                     {ex.timestart} - {ex.timeend}
                   </p>

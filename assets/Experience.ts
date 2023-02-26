@@ -3,9 +3,11 @@ export const Professional = [
     company: "Arda Finance",
     exp: [
       {
-        role: "Blockchain Developer Intern",
+        role: "Software Developer Intern",
         timestart: "Jan 2023",
         timeend: "Present",
+        details:
+          "Worked on the Web extension, A security product for web 3 transactions. Worked on Oracles and Price Tracking SDKs to monitor any Oracle Manipulation Attacks using graphana and kafka.",
         present: true,
       },
     ],
@@ -17,6 +19,8 @@ export const Professional = [
         role: "Blockchain Engineer Intern",
         timestart: "Dec 2022",
         timeend: "Present",
+        details:
+          "Worked on DeFi Aggregator on Solidity and integrated EVM based networks on it. Worked on Layer Zero and Wormhole in order to integrate cross chain technologies with the main platform.",
         present: true,
       },
     ],
@@ -39,6 +43,8 @@ export const Professional = [
         role: "Technical Director",
         timestart: "Aug 2022",
         timeend: "Present",
+        details:
+          "Working on the Projects with my team and doing code reviews for other teams and projects. Organising events and management.",
         present: true,
       },
       {

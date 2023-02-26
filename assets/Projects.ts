@@ -1,5 +1,17 @@
 export const Blockchain = [
   {
+    name: "CryptoVault 🔐",
+    desc: "CryptoVault is a vault on blockchain in which we can deposit our funds and then we can withdraw them in exchange of the stable coins which we got in exchange of the amount we staked in the vault.",
+    stack: ["Solidity", "Ethereum"],
+    link: "https://github.com/Arun89-crypto/CryptoVault",
+  },
+  {
+    name: "ECDSA-Node-Blockchain 📦",
+    desc: "This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.",
+    stack: ["Ethereum", "JavaScript"],
+    link: "https://github.com/Arun89-crypto/ECDSA-Node-Blockchain",
+  },
+  {
     name: "ImpermanentLoss-UniswapV3 🦄",
     desc: "Here we were given a task to exit a liquidity pool when impermanent loss is (>50%) by deploying a smart contract which will trigger the exitLiquidity function which we made and will transfer our funds back into the wallet.",
     stack: ["Solidity", "Uniswap-V3", "JavaScript"],

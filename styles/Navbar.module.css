@@ -16,6 +16,9 @@
 .navLinks li {
   margin-left: 30px;
 }
+.NavLinksHref:hover {
+  color: #d8315b;
+}
 .NavLinksHref {
   font-family: "Roboto Mono", monospace;
   text-decoration: none;
