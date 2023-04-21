@@ -35,6 +35,13 @@
 .ExperienceSubdiv {
   margin: 20px 0;
 }
+.ExperienceSubdiv ul {
+  margin: 10px 0;
+}
+.ExperienceSubdiv li {
+  font-family: "Roboto Mono", monospace;
+  color: #d0d0d0;
+}
 .ExperienceSubdiv p {
   font-family: "Roboto Mono", monospace;
 }

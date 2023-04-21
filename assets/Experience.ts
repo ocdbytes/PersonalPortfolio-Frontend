@@ -3,12 +3,16 @@ export const Professional = [
     company: "Arda Finance",
     exp: [
       {
-        role: "Software Developer Intern",
+        role: "Software Developer Engineer Intern",
         timestart: "Jan 2023",
-        timeend: "Present",
-        details:
-          "Worked on the Web extension, A security product for web 3 transactions. Worked on Oracles and Price Tracking SDKs to monitor any Oracle Manipulation Attacks using graphana and kafka.",
-        present: true,
+        timeend: "Mar 2023",
+        details: [
+          "Worked on the Web extension, A security product for web 3 transactions.",
+          "Worked on Oracles and Price Tracking SDKs to monitor any Oracle Manipulation Attacks.",
+          "Worked on Oracles Monitoring System to monitor any Oracle Manipulation Attacks.",
+          "Skills Acquired : Kafka, Grafana, NestJS, Prometheus",
+        ],
+        present: false,
       },
     ],
   },
@@ -18,10 +22,14 @@ export const Professional = [
       {
         role: "Blockchain Engineer Intern",
         timestart: "Dec 2022",
-        timeend: "Present",
-        details:
-          "Worked on DeFi Aggregator on Solidity and integrated EVM based networks on it. Worked on Layer Zero and Wormhole in order to integrate cross chain technologies with the main platform.",
-        present: true,
+        timeend: "Mar 2023",
+        details: [
+          "Worked on DeFi Aggregator on Solidity and integrated EVM based networks on it.",
+          "Worked on Layer Zero and Wormhole in order to integrate cross chain technologies with the main platform.",
+          "Worked on Non EVM chains to code defi aggregator for Sui Aptos.",
+          "Skills Acquired : Solidity, Proxy contracts EIP-2535, Move, TypeScript",
+        ],
+        present: false,
       },
     ],
   },
@@ -43,8 +51,9 @@ export const Professional = [
         role: "Technical Director",
         timestart: "Aug 2022",
         timeend: "Present",
-        details:
+        details: [
           "Working on the Projects with my team and doing code reviews for other teams and projects. Organising events and management.",
+        ],
         present: true,
       },
       {

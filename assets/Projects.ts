@@ -1,8 +1,34 @@
 export const Blockchain = [
   {
-    name: "CryptoVault 🔐",
-    desc: "CryptoVault is a vault on blockchain in which we can deposit our funds and then we can withdraw them in exchange of the stable coins which we got in exchange of the amount we staked in the vault.",
-    stack: ["Solidity", "Ethereum"],
+    name: "Gas Estimator ETH 🔥",
+    desc: "Calculating the estimated gas fee of a transaction in current block using the data from the previous blocks.",
+    stack: ["EIP-1559", "Typescript", "EthersJS"],
+    link: "https://github.com/Arun89-crypto/GasEstimatorEth",
+  },
+  {
+    name: "SECP256k1_Bitcoin 🪙",
+    desc: "This is the cryptography algorithm used in bitcoin to generate public and private keys. Bitcoin uses SECP256k1 C-language library to use this encryption in the Bitcoin operating system.",
+    stack: ["Cryptography", "Bitcoin", "RSA", "secp256k1"],
+    link: "https://github.com/Arun89-crypto/SECP256k1_Bitcoin",
+  },
+  {
+    name: "KOS 📦",
+    desc: "Oracle price Tracker is an open source project by Arda which is used to monitor the prices of the tokens on different blockchain and different oracles.",
+    stack: [
+      "Solidity",
+      "Ethereum",
+      "Kafka",
+      "TypeScript",
+      "QuestDB",
+      "NestJS",
+      "AWS",
+    ],
+    link: "https://github.com/arda-finance/kos",
+  },
+  {
+    name: "HyperVault 🔐",
+    desc: "HyperVault is a vault on blockchain in which we can deposit our funds and then we can withdraw them in exchange of the stable coins which we got in exchange of the amount we staked in the vault.",
+    stack: ["Solidity", "Ethereum", "NextJS", "EthersJS"],
     link: "https://github.com/Arun89-crypto/CryptoVault",
   },
   {
@@ -109,6 +135,24 @@ export const Security = [
   },
 ];
 export const DocsAndTemplates = [
+  {
+    name: "Aptos Move 📚",
+    desc: "Move Programming Language | Aptos Blockchain | Move Contract Deployment (APTOS - DEVNET, TESTNET) | Move Modules & Tests | Interaction | Non EVM",
+    stack: ["Move"],
+    link: "https://github.com/Arun89-crypto/APTOS_MOVE",
+  },
+  {
+    name: "Sui Move 📚",
+    desc: "Sui Move Programming Language | Sui Blockchain | Move Contract Deployment (SUI- DEVNET) | Sui Modules & Tests | Interaction | Non EVM",
+    stack: ["Move"],
+    link: "https://github.com/Arun89-crypto/SUI_MOVE",
+  },
+  {
+    name: "Rust Lang 🦀",
+    desc: "Rust Programming Language | Ownership | Error Handling",
+    stack: ["Rust"],
+    link: "https://github.com/Arun89-crypto/RustLang",
+  },
   {
     name: "Solidity Cheatsheet 📚",
     desc: "This is a cheatsheet for solidity containing all the basics and advanced concepts.",

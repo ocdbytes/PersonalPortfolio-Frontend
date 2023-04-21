@@ -37,7 +37,13 @@ const ExperienceComponent = () => {
                     </span>
                     {ex.role}
                   </p>
-                  {ex.details && <p className={styles.details}>{ex.details}</p>}
+                  {ex.details && (
+                    <ul>
+                      {ex.details.map((d) => {
+                        return <li key={d}>{d}</li>;
+                      })}
+                    </ul>
+                  )}
                   <p>
                     {ex.timestart} - {ex.timeend}
                   </p>
