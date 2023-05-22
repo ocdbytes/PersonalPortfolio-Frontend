@@ -1,5 +1,27 @@
 export const Professional = [
   {
+    company: "Polgon Labs",
+    exp: [
+      {
+        role: "Polygon Advocate",
+        timestart: "May 2023",
+        timeend: "Present",
+        present: true,
+      },
+    ],
+  },
+  {
+    company: "Shardeum",
+    exp: [
+      {
+        role: "Campus Ambassador",
+        timestart: "Jan 2023",
+        timeend: "Present",
+        present: true,
+      },
+    ],
+  },
+  {
     company: "Arda Finance",
     exp: [
       {
@@ -34,32 +56,24 @@ export const Professional = [
     ],
   },
   {
-    company: "Shardeum",
-    exp: [
-      {
-        role: "Campus Ambassador",
-        timestart: "Jan 2023",
-        timeend: "Present",
-        present: true,
-      },
-    ],
-  },
-  {
     company: "Data Science Community",
     exp: [
       {
         role: "Technical Director",
         timestart: "Aug 2022",
-        timeend: "Present",
+        timeend: "May 2023",
         details: [
           "Working on the Projects with my team and doing code reviews for other teams and projects. Organising events and management.",
         ],
-        present: true,
+        present: false,
       },
       {
         role: "Technical Member",
         timestart: "2020",
         timeend: "Aug 2022",
+        details: [
+          "Working on the Projects with my team and deploying them to the production for the community",
+        ],
         present: false,
       },
     ],
@@ -71,6 +85,11 @@ export const Professional = [
         role: "Full Stack Developer Intern",
         timestart: "Mar 2022",
         timeend: "May 2022",
+        details: [
+          "Worked on the backend APIs of the product and implemented security measures on the access control of APIs",
+          "I worked upon the socket connections and development for the chat application",
+          "Skills Acquired : TypeScript, NodeJS, Socket.io, mongodb",
+        ],
         present: false,
       },
     ],
@@ -78,6 +97,12 @@ export const Professional = [
 ];
 
 export const DevsAndMeetups = [
+  {
+    heading: "Hackverse 2023 Tamil Nadu",
+    tags: ["Mentor", "Hackathon"],
+    description:
+      "Hackverse was held in chennai and was the largest web3 hackathon of Tamil Nadu and I got the amazing opportunity to mentor at Hackverse. I got to see the amazing projects in working and I am glad to help the people who were stuck anywhere or wanted to know what tech should they use.",
+  },
   {
     heading: "EthIndia'22",
     tags: ["Polygon : Best DAO Implimentation Track Winner 🏆", "Hackathon"],

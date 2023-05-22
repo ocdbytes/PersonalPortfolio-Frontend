@@ -1,5 +1,11 @@
 export const Blockchain = [
   {
+    name: "Hyper Token Bridge 🌉",
+    desc: "Hyper Token Bridge is a cross chain bridge that allows to swap native token to wrapped native on the other chain. For eg. I want to swap the native BNB token into WMATIC token on the polygon chain so hyper bridge can do that in a very less time.",
+    stack: ["Solidity", "Layer Zero", "Uniswap-v3", "Typescript"],
+    link: "https://github.com/Arun89-crypto/HyperTokenBridge",
+  },
+  {
     name: "Gas Estimator ETH 🔥",
     desc: "Calculating the estimated gas fee of a transaction in current block using the data from the previous blocks.",
     stack: ["EIP-1559", "Typescript", "EthersJS"],

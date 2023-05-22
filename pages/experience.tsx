@@ -11,7 +11,7 @@ const Experience = () => {
         <title>Experience | Arun Jangra</title>
         <meta
           name="description"
-          content="Software Engineer Intern @kanalabs | CTF Player ☠️ | Blockchain ⛓️ | Full Stack Developer 💻 | ♥️ hardware 📟 | Ex-FSWD Intern @Zapezzy"
+          content="CTF Player ☠️ | Blockchain Dev ⛓️ | Software Developer 💻 | ♥️ hardware 📟"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
